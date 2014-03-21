@@ -3,8 +3,20 @@ package br.aeso.android.quizgame;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Toast;
+import android.content.Context;
 
 public class MainActivity extends Activity {
+
+	Context context = getApplicationContext();
+	CharSequence text = "Testando 1, 2, 3. Testando!";
+	int duration = Toast.LENGTH_SHORT;
+
+	//Toast toast = Toast.makeText(context, text, duration);
+	//toast.show();
+	//Toast.makeText(context, text, duration).show();
+	
+	//public void show();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
