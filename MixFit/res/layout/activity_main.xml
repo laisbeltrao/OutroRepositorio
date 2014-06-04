@@ -1,0 +1,76 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+
+-->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+		>
+    
+
+    	<TextView
+    		android:id="@+id/tvNome"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Nome"
+		/>
+        
+    	<EditText
+			android:id="@+id/etNome"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+		/>
+    
+    	<TextView
+			android:id="@+id/tvAltura"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Altura"
+		/>
+    
+    	<EditText
+        	android:id="@+id/etAltura"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="numberDecimal" 
+	        android:text=""	       
+    	/>
+    
+    	<TextView
+			android:id="@+id/tvPeso"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Peso"
+		/>
+	    
+	    <EditText
+	    	android:id="@+id/etPeso"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:inputType="numberDecimal"
+			android:text=""
+		/>
+	    
+	    <Button
+	    	android:id="@+id/btnSalvar"
+	    	android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:text="Salvar"
+	    />
+	
+	    <Button
+	        android:id="@+id/btnConsultar"
+	        android:layout_width="150dp"
+	        android:layout_height="wrap_content"
+	        android:text="Consultar" />
+	    
+	    <ListView
+	        android:id="@+id/lvMostraDados"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+        
+    <!-- android:digits="1234567890.," -->
+	</LinearLayout>
